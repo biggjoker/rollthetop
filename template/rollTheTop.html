@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>AdminLTE 3 | Dashboard 2</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href=../static/css/adminlte.min.css>
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="#" class="brand-link">
+            <span class="brand-text font-weight-light">参与项目</span>
+        </a>
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                data-accordion="false" id="allMenu">
+                <!-- Add icons to the links using the .nav-icon class
+                     with font-awesome or any other icon font library -->
+                <li class="nav-item" style="display: none">
+                    <a href="#project1" class="nav-link">
+                        <i class="nav-icon fa fa-th"></i>
+                        <p>Widgets</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+<!-- /.sidebar -->
+</aside>
+    <div class="content-wrapper">
+        <section class="content">
+            <div class="container-fluid" id="allRow">
+                <div class="row" id="project1"style="display: none" >
+                    <div class="col-md-7">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">第一名请吃糖</h5>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <!-- /.col -->
+                                <div class="col-md-12">
+                                    <p class="text-center">
+                                        <strong>Goal Completion</strong>
+                                    </p>
+
+                                    <div class="progress-group">
+                                        小罗
+                                        <span class="float-right">81</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-primary" style="width: 81%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- /.progress-group -->
+
+                                    <div class="progress-group">
+                                        jone
+                                        <span class="float-right">72</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-danger" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- /.progress-group -->
+                                    <div class="progress-group">
+                                        <span class="progress-text">smith</span>
+                                        <span class="float-right">60</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-success" style="width: 60%"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- /.progress-group -->
+                                    <div class="progress-group">
+                                        myself
+                                        <span class="float-right">50</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- /.progress-group -->
+                                </div>
+                                <form class="col-md-8">
+                                    <div class="input-group input-group-sm">
+                                        <input class="form-control form-control-navba" type="search" placeholder="输入你的名称试试手气？" aria-label="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-navbar">
+                                                <i class="fa fa-save" onclick="userSetScore(this)"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="input-group input-group-sm">
+                                        <input class="form-control form-control-navba" type="search" placeholder="查询用户得分" aria-label="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-navbar" >
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+        </section>
+    </div>
+<!-- /.col -->
+</div>
+
+<!-- Main Footer -->
+<footer class="main-footer">
+    <strong>support by <a href="https://nebulas.io">nebulas.io</a></strong>
+</footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+<!-- jQuery -->
+<script src="../static/js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../static/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../static/js/adminlte.js"></script>
+
+<!-- PAGE PLUGINS -->
+<!-- SparkLine -->
+<script src="../static/js/jquery.sparkline.min.js"></script>
+<!-- SlimScroll 1.3.0 -->
+<script src="../static/js/jquery.slimscroll.min.js"></script>
+
+<script src="../static/lib/nebPay.js"></script>
+<script src="../static/lib/nebulas.js"></script>
+
+<script src="../static/rollTheTop.js"></script>
+
+</body>
+</html>
